@@ -19,3 +19,8 @@ Lottie Animation Credits:
 - <a href="https://iconscout.com/3ds/wireframe-sphere" target="_blank">Wireframe sphere 3D Illustration</a> by <a href="https://iconscout.com/contributors/iconscout">IconScout Store</a> on <a href="https://iconscout.com">IconScout</a>
 - <a href="https://iconscout.com/3ds/wireframe-sphere" target="_blank">Wireframe sphere 3D Illustration</a> by <a href="https://iconscout.com/contributors/iconscout" target="_blank">IconScout Store</a>
 
+2D Illustrations
+- <a href='https://www.freepik.com/vectors/watercolor-food'>Watercolor food vector created by pikisuperstar - www.freepik.com</a>
+- <a href='https://www.freepik.com/vectors/mojito'>Mojito vector created by pikisuperstar - www.freepik.com</a>
+- <a href='https://www.freepik.com/vectors/pina-colada'>Pina colada vector created by pikisuperstar - www.freepik.com</a>
+- 
