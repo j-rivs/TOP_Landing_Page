@@ -5,4 +5,37 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0px 160px;
+    padding-top: 12px;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+}
+
+.content {
+    padding: 0px 160px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: baseline;
+}
+
+.section1 img {
+    height: 240px;
+    width: 540px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.card-section {
+    display: flex;
+
 }
