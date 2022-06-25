@@ -41,3 +41,10 @@
 .card-section {
     display: flex;
 }
+
+.section3 {
+    display: flex;
+    box-sizing: content-box;
+    padding: 100px 200px;
+    background-color: #e5e7eb;
+}
