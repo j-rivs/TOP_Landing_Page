@@ -1,12 +1,13 @@
-body {
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 0px 160px;
-    padding-top: 12px;
+    background-color: #1f2937;
 }
 
 .header img {
@@ -15,12 +16,14 @@ body {
 }
 
 .content {
-    padding: 0px 160px;
+    margin: 0;
 }
 
 .section1 {
     display: flex;
-    justify-content: baseline;
+    box-sizing: content-box;
+    padding: 0px 160px;
+    background-color: #1f2937;
 }
 
 .section1 img {
@@ -32,10 +35,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 40px;
+    padding: 0px 200px;
 }
 
 .card-section {
     display: flex;
-
 }
