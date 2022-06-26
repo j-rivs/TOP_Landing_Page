@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -14,7 +15,12 @@
     height: 100px;
     width: 100px;
 }
-
+.header a {
+    font-size: 18px;
+    color: #e5e7ebaf;
+    text-decoration: none;
+    padding-left: 18px;
+}
 .content {
     margin: 0;
 }
@@ -24,6 +30,16 @@
     box-sizing: content-box;
     padding: 100px 160px;
     background-color: #1f2937;
+}
+
+.s1-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.s1-container p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .section1 img {
