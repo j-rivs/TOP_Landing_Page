@@ -60,6 +60,10 @@
     justify-content: space-evenly;
 }
 
+.card {
+    color: #1f2937c0;
+}
+
 .card img {
     width: 150px;
     height: 160px;
@@ -88,5 +92,5 @@ cite {
     font-size: 22px;
     font-weight: bold;
     font-style: normal;
-    color: #1f2937ec;
+    color: #1f2937ec;s
 }
