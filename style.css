@@ -144,6 +144,17 @@ button {
     border-color: #3882f6;
 }
 
+button:hover {
+    background-color: #97befd;
+    box-shadow: 0px 15px 20px #97befd78;
+    color: #fff;
+    transform: translateY(-6px);
+}
+
+button:active {
+    transform: translateY(-2px);
+}
+
 .s4-container button {
     border-color: #f9faf8;
 }
