@@ -69,7 +69,13 @@
     height: 160px;
     border: 4px solid #3882f6;
     border-radius: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.card:hover {
+    margin-top: -10px;
 }
 
 .section3 {
@@ -96,6 +102,31 @@ cite {
 }
 
 .section4 {
+    padding: 100px 280px;
+}
+
+.s4-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px 80px;
+    border-radius: 10px;
+}
+
+.s4-container h3, button{
+    color: white;
+}
+
+.s4-container p {
+    color: #e5e7ebaf;
+}
+
+.s4-container button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 0px 30px;
+    border-color: #f9faf8;
+    border-style: solid;
 }
