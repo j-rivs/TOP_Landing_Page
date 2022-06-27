@@ -42,6 +42,10 @@
     color: #e5e7eb;
 }
 
+.s1-container button {
+    
+}
+
 .section1 img {
     height: 240px;
     width: 540px;
@@ -121,12 +125,16 @@ cite {
     color: #e5e7ebaf;
 }
 
-.s4-container button {
+button {
     font-size: 16px;
     font-weight: bold;
     background-color: #3882f6;
+    padding: 8px 30px;
     border-radius: 8px;
-    padding: 0px 30px;
-    border-color: #f9faf8;
     border-style: solid;
+    border-color: #3882f6;
+}
+
+.s4-container button {
+    border-color: #f9faf8;
 }
