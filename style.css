@@ -158,3 +158,11 @@ button:active {
 .s4-container button {
     border-color: #f9faf8;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7ebaf;
+    background-color: #1f2937;
+    padding: 28px;
+}
