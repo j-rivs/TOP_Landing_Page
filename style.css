@@ -1,3 +1,20 @@
+/*
+Golf Palette 1
+#3d8e90
+#e9ecff
+#e592b0
+#a2d0cc
+#6db4b3
+
+
+Golf Palette 2
+#75a8bb
+#dbd8ce
+#c5a474
+#c2926b
+#0f1115
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -9,16 +26,55 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 240px;
-    background-color: #1f2937;
+    background-color: #0f1115;
 }
 
-.header img {
-    height: 100px;
-    width: 100px;
-}
+.button {
+    margin: 0;
+    margin-top: 18px;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #75a8bb;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
 .header a {
     font-size: 18px;
-    color: #e5e7ebaf;
+    color: #dbd8ce;
+    /*
+    #e5e7ebaf
+    */
     text-decoration: none;
     padding-left: 18px;
 }
@@ -33,7 +89,7 @@
     gap: 24px;
     box-sizing: content-box;
     padding: 80px 0px 120px;
-    background-color: #1f2937;
+    background-color: #0f1115;
 }
 
 .s1-container {
@@ -46,11 +102,12 @@
 .s1-container h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #dbd8ce;
+    /*f9faf8*/
 }
 .s1-container p {
     font-size: 18px;
-    color: #e5e7ebbd;
+    color: #dbd8cebf;
 }
 
 .section1 img {
@@ -79,22 +136,19 @@
 .card img {
     width: 170px;
     height: 180px;
-    border: 4px solid #3882f6;
+    border: 4px solid #75a8bb;
+    /*3882f6*/
     border-radius: 25px;
     margin-bottom: 18px;
     box-shadow: 15px 15px 30px #bebebe,
              -15px -15px 30px #ffffff;
 }
 
-.card img:hover {
-    margin-top: -10px;
-}
-
 .section3 {
     display: flex;
     box-sizing: content-box;
     padding: 100px 300px;
-    background-color: #e5e7eb;
+    background-color: #c5a474;
 }
 
 blockquote {
@@ -120,7 +174,7 @@ cite {
 .s4-container {
     display: flex;
     justify-content: space-between;
-    background-color: #3882f6;
+    background-color: #c2926b;
     padding: 50px 80px;
     border-radius: 10px;
 }
@@ -133,36 +187,33 @@ cite {
     color: #e5e7ebc8;
 }
 
-button {
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #3882f6;
-    width: 120px;
-    height: 36px;
-    border-radius: 8px;
-    border-style: solid;
-    border-color: #3882f6;
-}
-
-button:hover {
-    background-color: #97befd;
-    box-shadow: 0px 15px 20px #97befd78;
-    color: #fff;
-    transform: translateY(-6px);
-}
-
-button:active {
-    transform: translateY(-2px);
-}
-
-.s4-container button {
-    border-color: #f9faf8;
-}
-
 .footer {
     display: flex;
     justify-content: center;
     color: #e5e7ebaf;
-    background-color: #1f2937;
+    background-color: #0f1115;
+    /*1f2937*/
     padding: 28px;
 }
+
+/*
+S4 Button
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #75a8bb;
+    #3882f6
+    width: 120px;
+    height: 36px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #75a8bb;
+
+button:hover {
+    background-color: #deaabd;
+    border-color: #deaabd;
+    #97befd
+    box-shadow: 0px 15px 20px #dabfc9;
+    color: #fff;
+    transform: translateY(-6px);
+}
+*/
