@@ -1,20 +1,3 @@
-/*
-Golf Palette 1
-#3d8e90
-#e9ecff
-#e592b0
-#a2d0cc
-#6db4b3
-
-
-Golf Palette 2
-#75a8bb
-#dbd8ce
-#c5a474
-#c2926b
-#0f1115
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -26,22 +9,20 @@ Golf Palette 2
     justify-content: space-between;
     align-items: center;
     padding: 0px 240px;
-    background-color: #0f1115;
+    background-color: #d8c3a5;
 }
 
 .button {
-    margin: 0;
-    margin-top: 18px;
+    margin: 18px 0px;
     background: transparent;
     padding: 0;
     border: none;
   }
   
-  
   .button {
     --border-right: 6px;
-    --text-stroke-color: rgba(255,255,255,0.6);
-    --animation-color: #75a8bb;
+    --text-stroke-color: #8e8d8a;
+    --animation-color: #e85a4f;
     --fs-size: 2em;
     letter-spacing: 3px;
     text-decoration: none;
@@ -71,10 +52,7 @@ Golf Palette 2
 
 .header a {
     font-size: 18px;
-    color: #dbd8ce;
-    /*
-    #e5e7ebaf
-    */
+    color: #8e8d8a;
     text-decoration: none;
     padding-left: 18px;
 }
@@ -89,7 +67,7 @@ Golf Palette 2
     gap: 24px;
     box-sizing: content-box;
     padding: 80px 0px 120px;
-    background-color: #0f1115;
+    background-color: #eae7dc;
 }
 
 .s1-container {
@@ -102,12 +80,12 @@ Golf Palette 2
 .s1-container h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #dbd8ce;
+    color: #8e8d8a;
     /*f9faf8*/
 }
 .s1-container p {
     font-size: 18px;
-    color: #dbd8cebf;
+    color: #8e8d8a;
 }
 
 .section1 img {
@@ -119,6 +97,7 @@ Golf Palette 2
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ffffff;
     padding: 60px 300px 100px;
     gap: 28px;
 }
@@ -130,13 +109,13 @@ Golf Palette 2
 }
 
 .card {
-    color: #1f2937c0;
+    color: #8e8d8a;
 }
 
 .card img {
     width: 170px;
     height: 180px;
-    border: 4px solid #75a8bb;
+    border: 4px solid #e98074;
     /*3882f6*/
     border-radius: 25px;
     margin-bottom: 18px;
@@ -148,11 +127,11 @@ Golf Palette 2
     display: flex;
     box-sizing: content-box;
     padding: 100px 300px;
-    background-color: #c5a474;
+    background-color: #d8c3a5;
 }
 
 blockquote {
-    color: #1f2937ba;
+    color: #8e8d8a;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -164,7 +143,7 @@ cite {
     font-size: 22px;
     font-weight: bold;
     font-style: normal;
-    color: #1f2937ec;
+    color: #e85a4f;
 }
 
 .section4 {
@@ -174,12 +153,12 @@ cite {
 .s4-container {
     display: flex;
     justify-content: space-between;
-    background-color: #c2926b;
+    background-color: #eae7dc;
     padding: 50px 80px;
     border-radius: 10px;
 }
 
-.s4-container h3, button{
+.s4-container h3{
     color: white;
 }
 
@@ -190,30 +169,29 @@ cite {
 .footer {
     display: flex;
     justify-content: center;
-    color: #e5e7ebaf;
-    background-color: #0f1115;
-    /*1f2937*/
+    color: #e98074;
+    background-color: #d8c3a5;
     padding: 28px;
 }
 
-/*
-S4 Button
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #75a8bb;
-    #3882f6
-    width: 120px;
-    height: 36px;
-    border-radius: 8px;
-    border-style: solid;
-    border-color: #75a8bb;
-
-button:hover {
-    background-color: #deaabd;
-    border-color: #deaabd;
-    #97befd
-    box-shadow: 0px 15px 20px #dabfc9;
-    color: #fff;
-    transform: translateY(-6px);
-}
-*/
+.sign-up {
+    background: #e98074;
+    color: #eae7dc;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 2px solid #e85a4f;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em #e98074;
+    width: 150px;
+    height: 50px;
+   }
+   .sign-up:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #e98074;
+   }
+   .sign-up:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #e98074;
+   }
